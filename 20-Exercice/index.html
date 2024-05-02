@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const SENTENCE = 'The strength of JavaScript is that you can do anything. The weakness is that you will.'
+        console.log('La phrase entière : ' + SENTENCE)
+        console.log('La longueur de la chaîne de caractères : ' + SENTENCE.length)
+        console.log('La position du mot "JavaScript" : ' + SENTENCE.indexOf('JavaScript'))
+        console.log('La position du dernier "is" : ' + SENTENCE.lastIndexOf('is'))
+        console.log('La dernière phrase seulement : ' + SENTENCE.slice(SENTENCE.lastIndexOf('.') -30))
+        console.log('Les 10 caractères à partir du 17ème caractère : ' + SENTENCE.substr(16, 10))
+        console.log('Combien de mots dans la phrase : ' + SENTENCE.split(' ').length)
+        console.log('Le 61ème caractère : ' + SENTENCE.charAt(60))
+        console.log("Remplacer 'you' par 'I' dans toute la phrase : " + SENTENCE.replace(/you/g, 'I'))
+
+    </script>
+</body>
+</html>
